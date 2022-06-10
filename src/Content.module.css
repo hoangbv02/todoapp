@@ -1,0 +1,60 @@
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.content{
+    width: 550px;
+}
+.formInput{
+    margin-right:  16px;
+    width: 77%;
+    background-color: #fff;
+    border: none;
+    outline-color: rgb(179, 131, 226);
+    padding: 16px;
+    font-size: 24px;
+    box-shadow: -3px 3px 6px #dedede,3px -3px 6px #dedede;
+}
+.jobsList{
+    padding:0;
+    margin-top: 12px;
+    width: 100%;
+    box-shadow: -3px 3px 6px #dedede,3px -3px 6px #dedede;
+}
+.jobsItem{
+    border-radius: 4px;
+    list-style: none;
+    background-color: #fff;
+    padding: 16px 0 16px 12px ;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+.job{
+    text-align: start;
+}
+.groupBtn{
+    display: flex;
+}
+.btn{
+    color: rgb(179, 131, 226);
+    margin-right: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btnOk{
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(226, 131, 131);
+    margin-right: 16px;    
+}
+.btnOk:hover{
+    opacity: 0.7;
+}
